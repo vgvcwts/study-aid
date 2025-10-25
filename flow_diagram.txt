@@ -1,0 +1,26 @@
+One question flow
+[START] -----> [generate_response] -------> [evaluate_response] ---------> (?) ---(correct)---------> [END]
+                    ^                                                   (route_flow)
+                    |                                                       |
+                    |                                            (not correct and tries < max)
+                    |                                                       |
+                    |                                                       v
+                    ---------------------------------------------------------
+
+
+
+
+
+
+Exam flow
+[START] -----> [generate_response] ------------> [evaluate_response] ----score = 1 or tries = max-----[next_question]------(numq == maxq) ---> [END]
+                     ^                                    |                                                |
+                     |                                    |                                                |                                     
+                     |                           (score = 0 and tries < max)                           (numq < maxq) 
+                     |                                 (retry)                                           (new)                                         
+                     |                                    |                                                | 
+                     |                                    v                                                v
+                     ---------------------------------------------------------------------------------------
+
+    []:  Nodes
+    (?): Conditional branching

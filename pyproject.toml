@@ -7,7 +7,13 @@ requires-python = ">=3.13"
 dependencies = [
     "chromadb>=1.1.1",
     "langchain-community>=0.3.31",
+    "langgraph>=1.0.1",
     "litellm>=1.78.2",
+    "msoffcrypto-tool>=5.4.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
     "pypdf>=6.1.1",
+    "python-pptx>=1.0.2",
     "sentence-transformers>=5.1.1",
+    "unstructured[docx]>=0.18.15",
 ]

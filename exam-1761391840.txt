@@ -1,0 +1,56 @@
+[
+    {
+        "comments": "",
+        "text": "What is the definition of potential energy?",
+        "options": {
+            "A": "Potential energy is defined as the energy that can be stored in a system when certain types of forces act between its components.",
+            "B": "Potential energy is defined as the energy that can be transferred from one object to another through frictional forces.",
+            "C": "Potential energy is defined as the energy that can be converted into kinetic energy through the application of Newton's laws.",
+            "D": "Potential energy is not a valid concept in physics."
+        },
+        "answer": "A",
+        "explanation": "According to Chapter 12, Potential Energy, potential energy is defined as the energy that can be stored in a system when certain types of forces act between its components.",
+        "reference": "Chapter 12, Potential Energy",
+        "verdict": {
+            "score": 1,
+            "desirability": 1,
+            "reasoning": "All three questions and their corresponding answers accurately reflect the content in Chapter 12 of the textbook, which discusses potential energy, conservation of mechanical energy, and conservative forces."
+        }
+    },
+    {
+        "comments": "",
+        "text": "What is the purpose of introducing conservation of mechanical energy after studying vector mechanics?",
+        "options": {
+            "A": "To provide a more unified and coherent treatment of energy and its law of conservation.",
+            "B": "To apply energy techniques to problems already solved using laws of vector mechanics.",
+            "C": "To introduce new or different insights into mechanical problems.",
+            "D": "To simplify the study of rotational motion."
+        },
+        "answer": "A",
+        "explanation": "According to the preface, the authors have chosen to develop the energy concept following the presentation of vector mechanics (in both translational and rotational forms) to allow for a more unified and coherent treatment of energy and its law of conservation.",
+        "reference": "Preface",
+        "verdict": {
+            "score": 1,
+            "desirability": 1,
+            "reasoning": "The textbook reorders topics to introduce energy concepts after vector mechanics to create a unified treatment. This allows students to connect new energy ideas with their existing knowledge, facilitating a more coherent understanding of mechanical problems."
+        }
+    },
+    {
+        "comments": "",
+        "text": "What is the relationship between potential energy and conservative forces?",
+        "options": {
+            "A": "Potential energy is only present in systems with conservative forces.",
+            "B": "Conservative forces are only responsible for storing potential energy.",
+            "C": "The presence of potential energy indicates that a system has conservative forces acting on it.",
+            "D": "There is no direct relationship between potential energy and conservative forces."
+        },
+        "answer": "C",
+        "explanation": "According to Chapter 12, Potential Energy, potential energy is defined as the energy that can be stored in a system when certain types of forces act between its components. Conservative forces are those that can be expressed as the negative gradient of a potential energy function.",
+        "reference": "Chapter 12, Potential Energy",
+        "verdict": {
+            "score": 1,
+            "desirability": 1,
+            "reasoning": "The passage correctly explains that potential energy arises from conservative forces. Conservative forces are those whose work depends only on initial and final positions, allowing the definition of potential energy as stored energy due to their presence."
+        }
+    }
+]

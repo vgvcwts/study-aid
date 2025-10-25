@@ -1,0 +1,44 @@
+To do
+
+Evaluation
+    add a second llm as judge to verify if references exist in all answers
+    and / or check the answers for correctness
+
+    evaluate the answers with the judge llm and give feedback to the user
+
+    create a set of questions to evaluate a book chapter or article
+
+UI
+    create a web interface with streamlit or gradio or flask or html+js
+    allow uploading documents via the web interface
+    show chat history in the web interface
+    allow switching modes via the web interface
+    allow setting configuration options via the web interface
+    show vector store status in the web interface
+    refactor the code to separate the UI from the logic
+
+    add logging to file with log rotation
+
+    add progress bars for long running operations
+    refactor the code to use classes and methods
+    add unit tests and integration tests
+    improve error handling and user feedback
+    refactor the code to improve readability and maintainability
+    improve the prompts for better results
+
+flashcard mode
+    UI to display flashcards and allow user to mark them as known or unknown
+    spaced repetition algorithm to show flashcards at optimal intervals
+    allow user to add their own flashcards
+    allow user to edit generated flashcards
+    allow user to save flashcards to file or export them to other formats
+    allow user to choose flashcard format (e.g. Q&A, cloze, multiple)
+
+upload multi modal docs
+    processing of multi modal docs into RAG
+
+add metadata for categorization and filtering
+    allow filtering by metadata in UI
+    Use file metadata (e.g. author, date) during ingestion
+    Use folder hierarchy as metadata during ingestion
+    
